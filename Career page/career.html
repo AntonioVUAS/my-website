@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Career</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="../CSS/style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+	  <ul class="navmenu">
+	    <li class="menuitem"><image src="../Images/logo.png" alt="Number One Web" title="Number One Web" width="100%"/><li>
+	    <li class="menuitem"><a href="../Home page/index.html">Home</a></li>
+		<li class="menuitem"><a href="../About Us page/aboutus.html">About Us</a></li>
+		<li class="menuitem"><a href="career.html">Career</a></li>
+		<li class="menuitem"><a href="../Success Stories page/stories.html">Success Stories</a></li>
+		<li class="menuitem"><a href="../Contact Us page/contactus.html">Contact Us</a></li>
+	 </ul>
+	</nav>
+	<div class="banner">
+      <img src="Images of career page/panda.png" alt="Career page main image"/>
+    </div><!-- class banner end-->
+  <h1>Open positions:</h1>
+  <div class="res">
+    <h2>SEO:</h2>
+	<p><b>Location:</b> Remote / Hybrid (UK-based applicants preferred)<br />
+	  <b>Employment Type:</b> Full-Time<br />
+	  <b>Salary:</b> Competitive, based on experience</p>
+  </div>
+  <div class="res">
+    <h2> Job Responsibilities:</h2>
+	<p>As a Web Developer, your responsibilities will include developing and maintaining secure, responsive web applications, identifying and fixing security vulnerabilities, working closely with the team to implement secure features, following secure coding practices, conducting code reviews and testing, and keeping up with the latest industry trends.</p>
+  </div>
+  <div class="res">
+    <h2>Job Specifications:</h2>
+    <ul>
+	  <li>Experience with HTML, CSS, JavaScript, and a back-end language (e.g., PHP, Node.js, Python)</li>
+	  <li>Understanding of secure web development practices</li>
+	  <li>Familiarity with version control systems (e.g., Git)</li>
+	  <li>Good problem-solving skills and attention to detail</li>
+	  <li>Ability to work independently and as part of a team</li>
+	</ul>
+  </div>
+  <div class="res">
+    <h2>Required Qualifications:</h2>
+    <ul>
+	  <li>Completed training or certification in web development</li>
+	  <li>Additional coursework or certifications in cybersecurity (preferred)</li>
+	  <li>Strong portfolio or examples of personal or academic projects</li>
+	  <li>Willingness to continue learning and improving security skills</li>
+	</ul>
+  </div>
+  <form name="application" onsubmit="return validateForm()" method="post">
+    <fieldset>
+	<legend>Application form</legend>
+	  <div class="row">
+		<div class="col-25">
+			<label>First name:</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="firstname" placeholder="first name">
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-25">
+			<label>Last name:</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="lastname" placeholder="last name">
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-25">
+			<label>Enter your email:</label>
+		</div>
+		<div class="col-75">
+			<input type="email" name="email" placeholder="example@gmail.com">
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-25">
+			<label>Enter a phone number:</label>
+		</div>
+		<div class="col-75">
+			<input type="tel" placeholder="01234123456" pattern="[0-9]{11}" required name="telephone">
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-25">
+			<label>Age:</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="age" placeholder="age">
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-25">
+			<label>Gender:</label>
+		</div>
+		<div class="col-75">
+			<input type="radio" name="gender" value="male">Male
+			<input type="radio" name="gender" value="female">Female
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-25">
+			<label>Location(City,Country):</label>
+		</div>
+		<div class="col-75">
+			<input type="text" name="city" placeholder="city">
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-25">
+			<label>Upload your CV(pdf):</label>
+		</div>
+		<div class="col-75">
+			<input type="file" name="user-job">
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-25">
+			<label>Upload your Cover Letter(pdf)(optional):</label>
+		</div>
+		<div class="col-75">
+			<input type="file" name="user-letter">
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-25">
+			<label>What web development technologies are you most comfortable with?:</label>
+		</div>
+		<div class="col-75">
+			<textarea name="comment" cols="60" rows="5" placeholder="Short text answer"></textarea>
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-25">
+			<label>Do you have experience with secure coding practices? Please describe briefly.</label>
+		</div>
+		<div class="col-75">
+			<textarea name="comment" cols="60" rows="5" placeholder="Short paragraph answer"></textarea>
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-25">
+			<label>Have you completed any relevant certifications or training in web development or cybersecurity?</label>
+		</div>
+		<div class="col-75">
+			<textarea name="comment" cols="60" rows="5" placeholder="Yes/No + detail if Yes"></textarea>
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-25">
+			<label>Why do you want to work at Number One Web?</label>
+		</div>
+		<div class="col-75">
+			<textarea name="comment" cols="60" rows="5" placeholder="Short paragraph answer"></textarea>
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-25">
+			<label>How did you hear about this opportunity?</label>
+		</div>
+		<div class="col-75">
+			<select name="where">
+			  <option value="company website">Company Website</option>
+			  <option value="social media">Social Media</option>
+			  <option value="job board">Job Baord</option>
+			  <option value="referral">Referral</option>
+			  <option value="other">Other</option>
+			</select>
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-25">
+			<label>Consent Checkbox – "I confirm that the information provided is accurate and I agree to be contacted regarding this application."</label>
+		</div>
+		<div class="col-75">
+			<input type="checkbox" name="consent" value="yes">Yes
+			<input type="checkbox" name="consent" value="no">No
+		</div>
+	  </div>
+	  <input type="submit" value="Submit" name="submit" >
+	</fieldset>
+  </form>
+  	<script src="formscript.js"></script>
+  </body>
+  <footer>
+    <ul class="foot">
+	  <li class="footitem"><image src="../Images/logo.png" alt="Number One Web" title="Number One Web" width="100%"/><li>
+	  <li class="footitem">&copy 2025 Your Website.All rights reserved</li>
+	  <li class="footitem">Privacy Policy</li>
+	  <li class="footitem">Terms of Service</li>
+	  <li class="footitem"><a href="https://www.google.com/search?q=facebook+login&rlz=1C1VDKB_enGB1148GB1148&oq=fa&gs_lcrp=EgZjaHJvbWUqDAgDECMYJxiABBiKBTIGCAAQRRg8MhIIARAuGCcYxwEY0QMYgAQYigUyBggCEEUYOTIMCAMQIxgnGIAEGIoFMg0IBBAAGJECGIAEGIoFMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEINTI3NWowajGoAgCwAgA&sourceid=chrome&ie=UTF-8" target="_blank"><image src="../Images/facebook.png" alt="facebook" title="facebook" width="100%"/></a><li>
+	  <li class="footitem"><a href="https://www.instagram.com/reels/DGlP-WixMo4/" target="_blank"><image src="../Images/instagram.jpg" alt="instagram" title="instagram" width="100%"/></a><li>
+	  <li class="footitem"><a href="https://x.com/i/flow/login" target="_blank"><image src="../Images/twitter.gif" alt="twitter" title="twitter" width="100%"/></a><li>
+	</ul>
+  </footer>
+</html>
